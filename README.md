@@ -13,16 +13,9 @@ This project demonstrates an ETL (Extract, Transform, Load) pipeline using Apach
 ### 1. Clone the repository:
 ```bash
 git clone https://github.com/nrnavaneet/airflow-weather-etl
-cd your-repo-name
+cd airflow-weather-etl
 ```
-2. Start the PostgreSQL service using Docker Compose:
-```bash
-
-docker-compose up -d
-```
-This will start a PostgreSQL container with the necessary configurations as defined in docker-compose.yml.
-
-3. Initialize and start the Astro development environment:
+2. Initialize and start the Astro development environment:
 ```bash
 
 astro dev init
